@@ -1,7 +1,7 @@
 def get_answer(question):
     answers = {'привет': 'И тебе привет!',
-              'как дела': 'Лучше всех', 
-              'пока': 'Увидимся', }
+        'как дела': 'Лучше всех', 
+        'пока': 'Увидимся', }
     return answers[question.lower()]
 
 print(get_answer('Как Дела'))
